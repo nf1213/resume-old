@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Clothes by the Color</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+		<nav>
+			<ul>
+				<li><a href="index.html"><img src="images/Logo.png"></li>
+				<li class="right"><a href="support.html">Support</a></li>
+				<li class="right"><a href="shop.html">Shop</a></li>
+				<li class="right"><a href="index.html">Home</a></li>
+			</ul>
+		</nav>
+		<div id="circle-head">
+		</div>
+	<footer>
+		<ul>
+			<li>Copyright Nicole Felch 2014.</li>
+			<li><a href="index.html">- Home</a></li>
+			<li><a href="shop.html">- Shop</a></li>
+			<li><a href="support.html">- Support</a></li>
+		</ul>
+	</footer>
+</body>
+
+<script>
+
+	var circle = document.getElementById("circle-head");
+	
+	circle.addEventListener('mouseover', circleText);
+	circle.addEventListener('mouseout', circleHead);
+	
+	function circleText() {
+		circle.style.backgroundImage = "url('images/text.png')";
+	}
+	
+	function circleHead() {
+		circle.style.backgroundImage = "url('images/nicole.jpg')";
+	}
+</script>
+</html>

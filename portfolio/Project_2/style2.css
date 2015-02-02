@@ -1,0 +1,102 @@
+.right {
+	float:right;
+}
+nav {
+	position: relative;
+	margin-right: -20px;
+	left: -10px;
+	background-color: black;
+	opacity: .75;
+	top: -20px;
+	padding-top: 10px;
+}
+
+nav li {
+	display: inline;
+	padding-right: 40px;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size: 25px;
+}
+
+nav li a {
+	color: white;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	text-shadow: 0px 0px 5px yellow;
+}
+
+#sidebar {
+	height: 1000px;
+	border-right: 1px solid #aaaaaa;
+	margin-top: -36px;
+	margin-left: -10px;
+	padding: 20px;
+	float: left;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#faqs, #contact-me {
+	margin-left: 120px;
+	margin-right: 120px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#sidebar p a {
+	text-decoration:none;
+	color: #000000;
+}
+
+#sidebar p a:hover {
+	color: #aaaaaa;
+}
+
+#items {
+ 	float: right;
+}
+#items ul{
+	float: left;
+	max-width: 800px;
+}
+#items ul li {
+	max-width: 205px;
+	border: 1px solid #aaaaaa;
+	border-radius: 5%;
+	padding: 15px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	display: inline-table;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#items ul li img {
+	width: 175px;
+	height: 200px;
+}
+
+#cart {
+	height: 1000px;
+	width: 175px;
+	border-left: 1px solid #aaaaaa;
+	float: right;
+	margin-top: -36px;
+	margin-right: -10px;
+	padding: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+li {
+	list-style-type: none;
+}
+#buyButton {
+	background-image: url('images/add.png');
+	background-size: 100px 40px;
+	height: 40px;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#buyButton:hover {
+	background-image: url('images/addHover.png');
+}

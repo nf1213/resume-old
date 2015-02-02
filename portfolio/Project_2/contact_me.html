@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style2.css">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<title>Clothes by the Color</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html"><img src="images/Logo.png" style="width: 277px; height: 40px;"></li>
+			<li class="right"><a href="support.html">Support</a></li>
+			<li class="right"><a href="shop.html">Shop</a></li>
+			<li class="right"><a href="index.html">Home</a></li>
+		</ul>
+	</nav>
+	<div id="sidebar">
+		<p><a href="support.html">FAQ's</a></p>
+		<p><a href="contact_me.html">Contact me</a></p>
+	</div>
+	<div id="contact-me">
+	<h1>Send me some feedback or alert me of website issues here!</h1>
+		<form action="mailto:nfelch@smith.edu" method="post" enctype="text/plain" name="contact">
+			Name:<input type="text" name="name">
+			Email:<input type="text" name="email"><br>
+			Message:<br><TEXTAREA name="message" ROWS=10 COLS=70></TEXTAREA><br>
+			<input type="submit" value="Send">
+			<p>*This will open whatever mailing application is built into your operating system. If you would rather send me an email using an internet application, just send it to nfelch@smith.edu</p>
+		</form>
+	</div>
+	<script>
+		function validate(event) {
+			var text = document.forms['contact'].message.value;
+			if(text === "") {
+				alert("At least say something!");
+				event.preventDefault();
+				return false;
+			}
+		}
+		document.forms['contact'].addEventListener('submit', validate);
+	</script>
+</body>
+</html>

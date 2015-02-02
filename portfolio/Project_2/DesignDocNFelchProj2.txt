@@ -1,0 +1,18 @@
+Design Document - Nicole Felch - Project 2
+
+Purpose: My website is a clothing store. I chose this because I like shopping online and since shopping is highly user-interactive, there are many things that could be stored in local storage or cookies. I don’t actually have anything to sell, so I am just pretending to sell my clothes because I own them and all the pictures I took of them are also mine. I made it a point not to use graphics from other sites, so I made everything myself. The actual pictures are mine and the logo and cart and buttons etc I drew myself using Google Drawing. I did not have much help on this assignment except for minor help on css concepts, like how to make a background fill my homepage, I got help from http://css-tricks.com/perfect-full-page-background-image/ and how to make my circle head: http://davidwalsh.name/css-circles. I also used some Google Fonts. I wanted the home page to be a different layout than the other pages because I like websites like apple.com where the home page is just a large image with navigation.
+
+Requirements:
+
+	Forms:
+		I use forms in my “contact me” page and on my shopping page, the categories are filtered using a form.
+
+	Storage:
+		I used local storage to store the items in the cart and the number of items in the cart so that users could come back to their shopping any time and not loose a thing.
+
+	Interaction/Feedback:
+		I used a lot of javascript, for example on the homepage, if the user puts their mouse over my face, it changes to a little message. Also, the whole shopping page is very interactive. The user can add things to their cart and clear the cart and view the items in their cart. When things are added, they can see the cart image change instantly to reflect how many items are in the cart. The categories form is also interactive because the user can change what they are viewing.
+
+—Nicole
+
+	

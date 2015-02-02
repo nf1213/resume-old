@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+    	<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" type="text/css" href="style.css">
+    	<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+    	<script src="jquery-1.11.1.js"></script>
+    	<title>Resume</title>
+    	<script src="script.js"></script>
+  	</head>
+  	<body>
+  		<div id="banner" onClick="show('about', 'ab')">
+  			<img src="banner2.png"></img>
+  		</div>
+  		<div id="circles">
+  			<a href="skype:nicole.felch"><img class="social" src="sk-ic.png"/></a>
+  			<a href="https://www.facebook.com/nicole.felch" target="_blank"><img class="social" src="fb-ic.png"/></a>
+  			<a href="https://plus.google.com/u/0/+NicoleFelch/posts" target="_blank"><img class="social" src="g+-ic.png"/></a>
+  			<img src="nicole.jpg" onClick="show('about', 'ab')" id="circle-head"/>
+  		</div>
+		<nav>
+			<ul>
+				<li onClick="show('about', 'ab')" id="ab" class='active'>About</li>
+				<li onClick="show('knowledge', 'kn')" id="kn">Knowledge</li>
+				<li onClick="show('education-experience', 'ed')"id="ed">Experience and Education</li>
+				<li onClick="show('portfolio', 'pr')"id="pr">Portfolio</li>
+				<li onClick="show('contact', 'cn')" id="cn">Contact</li>
+			</ul>
+		</nav>
+			<div id="about">
+				<h3>Hello World!</h3>
+				<p>My name is Nicole and I am an aspiring web developer. I love programming and problem solving. I also like cats and taking walks outside.</p>
+				<p>I am applying to Launch Academy because I have been to two different colleges in the past year and neither provided me with the knowledge or experience I wanted. I spent a lot of time and money without working towards my goals. For me, hours of lectures don't sink in as much as hands on learning. Also, the schools I attended barely scratched the surface of web programming and taught abstract concepts in computer science and higher level programming languages.</p><p> I've developed most of my programming skills on my own, but there are some things I just can't do by myself right now. I need an extra push so I can start making it in the real world and I think Launch Academy is just the right thing.</p><p>Take a look around the rest of my resume-style website to see where I'm at.</p>
+			</div>
+			<div id="knowledge">
+			<h3>Knowledge</h3>
+				<ul>
+					<li>Strong</li>
+						<ul>
+							<li>HTML/CSS</li>
+							<li>JavaScript</li>
+							<li>Java</li>
+						</ul>
+						</br>
+					<li>Basic Knowledge</li>
+					<ul>
+						<li>Ruby</li>
+						<li>PHP</li>
+						<li>Python</li>
+						<li>C/Objective C</li>
+						<li>jQuery</li>
+					</ul>
+				</ul>
+			</div>
+			<div id="education-experience">
+			<h3>Experience and Education</h3>
+				<ul>
+					<li>University of New Hampshire</li>
+					<ul>
+						<li>1 Semester</li>
+						<li>Internship - Mobile Application Developer</li>
+						<ul>
+							<a href="mailto:dmitry.sadykov@unh.edu"><li>Contact: Dmitry.Sadykov@unh.edu</li></a>
+						</ul>
+						<li>Classes Taken:</li>
+						<ul>
+							<li>Introduction to Computer Science</li>
+						</ul>
+					</ul>
+					</br>
+					<li>Smith College</li>
+					<ul>
+						<li>1 Semester</li>
+						<li>Classes Taken:</li>
+						<ul>
+							<li>Data Structures</li>
+							<li>Interactive Web Documents</li>
+							<li>Discrete Mathematics</li>
+						</ul>
+					</ul>
+				</ul>
+			</div>
+			<div id="portfolio">
+			<h3>Portfolio</h3>
+				<a href="portfolio/Project_2/index.html" target="_blank"><img class="thumb" src="thumb1.jpg"/></a>
+				<a href="portfolio/Project 1/indext.html" target="_blank"><img class="thumb" src="thumb2.jpg"/></a>
+			</div>
+			<div id="contact">
+				<h3>Contact Me</h4>
+				<h4>Email:</h3>
+				<a href="mailto:nfelch121394@gmail.com"><p>nfelch121394@gmail.com</p></a>
+				<h4>Address:</h4>
+				<p>1407 Peaked Hill Rd</br>Bristol NH, 03222</p>
+				<h4>Phone:</h4>
+				<a href="tel:+16035302645"><p>(603)-530-2645</p></a>
+			</div>
+	</body>
+</html>

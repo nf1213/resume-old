@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jquery-1.11.1.js"></script>
+    <title>Nicole's Tarot</title>
+  </head>
+  <body>
+  <nav>
+  	<ul>
+  		<li><a href="indext.html">Nicole's Tarot</a></li>
+  	</ul>
+  </nav>
+    <div id="cardTable">
+    	<div id="cards"></div>
+    	<a href="indext.html"><div id="restart">Restart</div></a>
+    </div>
+    <script src="script.js"></script>
+    <div id="start">
+    	<div class="button" onClick='draw(3, false)'>3 Card Reading</div>
+    	<div class="button" onClick='draw(7, false)'>7 Card Reading</div>
+    	<div class="button" onClick='draw(78, true)'>See Full Deck</div>
+    	<footer>Created by Nicole Felch. 2014</footer>
+    </div>
+  </body>
+</html>

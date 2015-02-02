@@ -1,0 +1,103 @@
+#knowledge, #education-experience, #portfolio, #contact, #about {
+	display: none;
+	margin-top: 175px;
+	margin-left: 250px;
+	margin-right: 250px;
+	font-family: 'Droid Serif', serif;
+	}
+
+#about {
+	display: block;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+a {
+	color: black;
+}
+
+nav {
+	left: 0;
+	position: absolute;
+	margin-top: -10px;
+	width: 100%;
+	z-index: 1;
+	background-color: #555555;
+	background: linear-gradient(#555555, #777777); 
+	background: -webkit-linear-gradient(#555555, #777777); /* For Safari 5.1 to 6.0 */
+ 	background: -o-linear-gradient(#555555,  #777777); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#555555,  #777777); /* For Firefox 3.6 to 15 */
+	padding: 0px;
+}
+
+.active {
+	background-color: #777777;
+	background: linear-gradient(#777777, #999999);
+	background: -webkit-linear-gradient(#777777, #999999); /* For Safari 5.1 to 6.0 */
+ 	background: -o-linear-gradient(#777777,  #999999); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#777777,  #999999); /* For Firefox 3.6 to 15 */
+  	}
+
+nav ul {
+	margin-left: 110px;
+}
+
+nav li {
+	display: inline;
+	text-decoration: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-size: 20px;
+	color: white;
+	text-shadow: 0px 0px 5px #AAAAAA;
+}
+
+#circles {
+	position: absolute;
+	top: 15px;
+    right: 15px;
+    z-index: 2;
+    display: inline;
+}
+
+#circle-head {
+    width:150px;
+    height:150px;
+	border-radius: 50%;
+	border: solid 1px black;
+}
+
+.social {
+	margin-bottom: 20px;
+}
+
+.thumb {
+	width: 300px;
+	height: 165px;
+	margin-right: 50px;
+	border-radius: 8%;
+	box-shadow: 5px 5px 5px #BBBBBB;
+	-webkit-filter: grayscale(90%);
+	-moz-filter: grayscale(90%);
+	filter: grayscale(90%);
+}
+
+.thumb:hover {
+	box-shadow: 5px 5px 5px #777777;
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+
+#banner {
+	background-color: #000000;
+	margin-left: -10px;
+	margin-top: -10px;
+	margin-right: -10px;
+}
+
+#banner img {
+	margin-left: 10px;
+}

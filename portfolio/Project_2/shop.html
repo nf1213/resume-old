@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style2.css">
+<title>Clothes by the Color</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html"><img src="images/Logo.png" style="width: 277px; height: 40px;"></li>
+			<li class="right"><a href="support.html">Support</a></li>
+			<li class="right"><a href="shop.html">Shop</a></li>
+			<li class="right"><a href="index.html">Home</a></li>
+		</ul>
+	</nav>
+	<div id="sidebar"> 
+		<p>Categories</p>
+		<form name="categories">
+			<input type="checkbox" name="redOrangePink" value="redOrangePink" onchange="filterCategories()">Red/Orange/Pink/Purple<br>
+			<input type="checkbox" name="yellowGreenBlue" value="yellowGreenBlue" onchange="filterCategories()">Yellow/Green/Blue<br>
+			<input type="checkbox" name="blackBrownOther" value="blackBrownOther" onchange="filterCategories()">Black/Brown/Other<br>
+		</form>
+	</div>
+	<div id="items">
+		<ul>
+			<li class="YGB"><img src="YGB/ygb1.jpg">Blue shirt with red bow - Rue21 - $2</li>
+			<li class="ROP"><img src="ROP/rop3.jpg">Pink patterned dress - Forever21 - $5</li>
+			<li class="YGB"><img src="YGB/ygb2.jpg">Green Tank-top - Old Navy - $2</li>
+			<li class="BBM"><img src="BBM/bbm1.jpg">Striped Tank-top - Aeropostale - $2</li>
+			<li class="ROP"><img src="ROP/rop1.jpg">Purple striped shirt - Aeropostale - $2</li>
+			<li class="BBM"><img src="BBM/bbm2.jpg">Black and white polka-dot dress - Walmart - $2</li>
+			<li class="ROP"><img src="ROP/rop2.jpg">Pink shirt - Victoria's Secret - $2</li>
+		</ul>
+		<div id="cart">
+			<p><b>Your Cart:</b></p>
+			<img id="cartImg" src="images/cart.png" style="width: 175px; height: 175px;">
+			<button onClick="popup()">Check out</button>
+			<button onClick="empty()">Empty</button>
+		</div>
+	</div>
+	<script src="shopScript.js"></script>
+</body>
+</html>
